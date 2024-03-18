@@ -1,0 +1,49 @@
+/* Lo vimos en clases anteriores */
+html {
+  scroll-behavior: smooth;
+}
+
+/* body {
+  background-color: cadetblue;
+} */
+
+/* p {
+  color: red;
+  background-color: aqua;
+} */
+
+/* .primer-parrafo {
+  color: brown;
+} */
+
+/* .color-verde {
+  background-color: chartreuse;
+} */
+
+/* #parrafo-destacado {
+  color: coral;
+} */
+
+/* h1,
+h2 {
+  margin-bottom: 0.5em;
+} */
+
+/* .span-destacado {
+  text-decoration: underline;
+  color: red;
+} */
+
+/* --- */
+
+/* div p {
+  color: red;
+} */
+
+/* p.color-verde {
+  color: green;
+} */
+
+div p#parrafo-destacado {
+  color: blue !important;
+}
