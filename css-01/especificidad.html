@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Especificidad</title>
+    <style>
+      #segundo {
+        color: blue;
+      }
+
+      p {
+        color: red;
+      }
+
+      .parrafo {
+        color: green;
+      }
+
+      .destacado {
+        color: chartreuse;
+      }
+
+      .parrafo.destacado {
+        color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- BEM -->
+    <h1>Especificidad</h1>
+
+    <p>Lorem ipsum dolor sit.</p>
+    <p id="segundo" class="parrafo">Quos quisquam non maiores!</p>
+    <p>Error aliquid eum quas?</p>
+    <p class="parrafo destacado">Ut sint odio ab?</p>
+    <p class="parrafo">Iste dicta sequi aliquid.</p>
+  </body>
+</html>
