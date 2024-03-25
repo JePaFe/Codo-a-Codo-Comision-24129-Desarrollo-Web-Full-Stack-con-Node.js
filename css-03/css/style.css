@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* min-height: 200vh; */
+}
+
+.titulo {
+  background-color: aqua;
+  height: 100px;
+  /* width: 50vw; */
+  min-width: 200px;
+  max-width: 300px;
+  overflow-x: hidden;
+}
+
+.parrafo {
+  width: 200px;
+  display: inline-block;
+  background-color: burlywood;
+  height: 50px;
+  overflow: hidden;
+  /* overflow-y: auto; */
+  /* margin: 10px 20px 3em 10%; */
+  /* margin: 0 0 10px 0; */
+  /* margin-bottom: 20px; */
+  /* margin: 20px 0; */
+  /* padding: 10px 20px 30px 40px; */
+  padding: 10px;
+  /* padding-left: 1.5em; */
+  margin-bottom: 0.5em;
+  border: 2px solid red;
+  /* border-bottom: 5px dotted darkred; */
+}
