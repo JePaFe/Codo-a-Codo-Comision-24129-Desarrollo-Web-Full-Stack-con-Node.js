@@ -1,0 +1,101 @@
+a {
+  /* color: blueviolet; */
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: bisque;
+}
+
+a:active {
+  color: red;
+  border: 1px solid;
+}
+
+a:hover {
+  font-size: 2em;
+  cursor: crosshair;
+}
+
+h1,
+h2,
+h3 {
+  color: chocolate;
+}
+
+main {
+  background-color: lightcyan;
+}
+
+/* main p {
+    color: crimson;
+} */
+
+/* main > p {
+  color: blue;
+} */
+
+/* h2 + p {
+  color: red;
+} */
+
+/* h2 ~ p {
+  color: red;
+} */
+
+/* .seccion-1 {
+    background-color: aqua;
+} */
+
+/* Pseudo Clases */
+
+div {
+  /* background-color: blueviolet; */
+}
+
+/* No tiene efecto porque el primer elemento es un h3 */
+/* article p:first-child {
+  color: red;
+} */
+
+/* article p:first-of-type {
+  color: red;
+} */
+
+/* article p:nth-child(3) {
+  color: green;
+} */
+
+div p:nth-child(even) {
+  /* color: snow; */
+}
+
+div p:last-child {
+  border-bottom: 1px solid;
+  padding-bottom: 0.5em;
+}
+
+/* Pseudo Elementos */
+
+p::selection {
+  background-color: blueviolet;
+  color: snow;
+}
+
+h1::before {
+  content: "--";
+}
+
+p::after {
+    content: '...';
+}
