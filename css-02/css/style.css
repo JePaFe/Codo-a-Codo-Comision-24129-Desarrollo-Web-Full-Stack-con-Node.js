@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap");
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
+
+/* html {
+  font-size: 10px;
+} */
+
+:root {
+  /* font-size: 16px; */
+  font-size: 62.5%;
+}
+
+body,
+h1 {
+  /* width: 50%; */
+  margin: 0;
+}
+
+main {
+  background-color: rgb(255, 0, 0);
+  min-height: 100vh;
+  background-image: url("../img/plumber.jpg");
+  background-position: center;
+  background-size: 600px;
+  /* background-repeat: no-repeat; */
+}
+
+p {
+  /* border-bottom: 1px solid; */
+  font-size: 1.5rem;
+  background-color: rgba(0, 255, 255, 0.75);
+  /* background-color: #00ffffff; */
+  /* width: 50%; */
+  width: 90vw;
+  /* font-style: oblique; */
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Ojuju", sans-serif;
+  font-weight: 400;
+}
+
+span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
